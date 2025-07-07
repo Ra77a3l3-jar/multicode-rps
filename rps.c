@@ -3,6 +3,7 @@
 #include <time.h>
 #include <ctype.h>
 #include <stdbool.h>
+
 void choice () {
     printf ("Rock - Paper - Scissors Game!\n");
     printf ("Enter: (r)ock, (p)aper or (s)cissors\n");
