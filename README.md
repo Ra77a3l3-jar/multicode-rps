@@ -1,8 +1,16 @@
 # 🎮 MultiCode RPS - Rock Paper Scissors CLI Game
 
+<div align="center">
+  
 ![Game Demo](https://img.shields.io/badge/Game-Rock%20Paper%20Scissors-blue)
-![Languages](https://img.shields.io/badge/Languages-C%20%7C%20C%2B%2B%20%7C%20Java%20%7C%20Zig-green)
 ![Platform](https://img.shields.io/badge/Platform-CLI-lightgrey)
+
+![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)
+![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+![Zig](https://img.shields.io/badge/Zig-F7A41D?style=for-the-badge&logo=zig&logoColor=white)
+
+</div>
 
 A classic Rock Paper Scissors CLI game implemented in multiple programming languages, featuring player vs computer gameplay with random AI opponent.
 
@@ -21,15 +29,24 @@ This repository showcases the classic Rock Paper Scissors game implemented acros
 
 ## 🛠️ Languages & Implementations
 
+<div align="center">
+  
+![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)
+![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+![Zig](https://img.shields.io/badge/Zig-F7A41D?style=for-the-badge&logo=zig&logoColor=white)
+
+</div>
+
 This project demonstrates the same game logic implemented in different programming paradigms:
 
 | Language | Status | Files | Compiler/Runtime |
 |----------|--------|-------|------------------|
-| **C** | ✅ Complete | `rock-paper-scissors.c` | GCC |
-| **C++** | ✅ Complete | `rockPaperScissor.cpp` | G++ |
-| **Java V1** | ✅ Complete | `RockPaperScissors.java` | OpenJDK |
-| **Java V2** | ✅ Complete | `main.java`, `utils.java`, `getChoices.java`, `gamEngine.java` | OpenJDK |
-| **Zig** | ✅ Complete | `src/main.zig` | Zig Compiler |
+| ![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white) | ✅ Complete | `rock-paper-scissors.c` | GCC |
+| ![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white) | ✅ Complete | `rockPaperScissor.cpp` | G++ |
+| ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white) V1 | ✅ Complete | `RockPaperScissors.java` | OpenJDK |
+| ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white) V2 | ✅ Complete | `main.java`, `utils.java`, `getChoices.java`, `gamEngine.java` | OpenJDK |
+| ![Zig](https://img.shields.io/badge/Zig-F7A41D?style=for-the-badge&logo=zig&logoColor=white) | ✅ Complete | `src/main.zig` | Zig Compiler |
 
 ## 🚀 Quick Start
 
@@ -48,60 +65,47 @@ zig version        # For Zig
 
 ## 🎯 Choose Your Language & Play
 
-### 🔧 C Implementation
+### 🔧 ![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white) Implementation
 
 ```bash
 # Compile and run
-gcc rock-paper-scissors.c -o rock-paper-scissors
-./rock-paper-scissors
-
-# Or use the pre-compiled binary (if available)
-./rock-paper-scissors.cbin
+gcc rps.c -o rps
+./rps
 ```
 
-### 🔧 C++ Implementation
+### 🔧 ![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white) Implementation
 
 ```bash
 # Compile and run
-g++ rockPaperScissor.cpp -o rockPaperScissor
-./rockPaperScissor
-
-# Or use the pre-compiled binary (if available)
-./rock-paper-scissors.cppbin
+g++ rps.cpp -o rps
+./rps
 ```
 
-### 🔧 Java V1 Implementation (Single File)
+### 🔧 ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white) V1 Implementation (Single File)
 
 ```bash
 # Navigate to Java V1 directory
 cd "Java V1"
 
 # Compile and run
-javac RockPaperScissors.java
-java RockPaperScissors
-
-# Or run the pre-compiled class (if available)
-java RockPaperScissors
+javac rps.java
+java rps
 ```
 
-### 🔧 Java V2 Implementation (Modular)
+### 🔧 ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white) V2 Implementation (Modular)
 
 ```bash
 # Navigate to Java V2 directory
 cd "Java V2"
 
 # Compile all files
-javac *.java
+javac main.java
 
 # Run the main class
 java main
-
-# Or compile and run individually
-javac gamEngine.java utils.java getChoices.java main.java
-java main
 ```
 
-### 🔧 Zig Implementation
+### 🔧 ![Zig](https://img.shields.io/badge/Zig-F7A41D?style=for-the-badge&logo=zig&logoColor=white) Implementation
 
 ```bash
 # Navigate to Zig directory
@@ -142,10 +146,10 @@ zig run src/main.zig
 multicode-rps/
 ├── 📄 README.md                   # Project documentation
 ├── 🔧 .gitignore                  # Git ignore rules
-├── 📝 rock-paper-scissors.c       # C implementation
-├── 📝 rockPaperScissor.cpp        # C++ implementation  
+├── 📝 rps.c                       # C implementation
+├── 📝 rps.cpp                     # C++ implementation  
 ├── 📁 Java V1/                    # Single-file Java version
-│   └── 📝 RockPaperScissors.java # Main Java file
+│   └── 📝 rps.java                # Main Java file
 ├── 📁 Java V2/                    # Modular Java version
 │   ├── 📝 main.java               # Entry point
 │   ├── 📝 utils.java              # Utility functions
@@ -164,10 +168,10 @@ multicode-rps/
 
 Each language uses its native approach to randomization:
 
-- **C**: `rand()` function with `srand(time(NULL))` seeding
-- **C++**: `<random>` library with proper distribution  
-- **Java**: `java.util.Random` class for robust randomization
-- **Zig**: `std.Random` module with proper seeding
+- ![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white): `rand()` function with `srand(time(NULL))` seeding
+- ![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white): `<random>` library with proper distribution  
+- ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white): `java.util.Random` class for robust randomization
+- ![Zig](https://img.shields.io/badge/Zig-F7A41D?style=for-the-badge&logo=zig&logoColor=white): `std.Random` module with proper seeding
 
 ### Input Handling
 
@@ -194,11 +198,11 @@ This project demonstrates:
 - String handling and parsing
 
 ### Language-Specific Features:
-- **C**: Procedural programming with manual memory management
-- **C++**: Object-oriented programming with classes and namespaces
-- **Java V1**: Single-class design with static methods
-- **Java V2**: Modular design with separation of concerns
-- **Zig**: Memory safety and modern systems programming
+- ![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white): Procedural programming with manual memory management
+- ![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white): Object-oriented programming with classes and namespaces
+- ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white) V1: Single-class design with static methods
+- ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white) V2: Modular design with separation of concerns
+- ![Zig](https://img.shields.io/badge/Zig-F7A41D?style=for-the-badge&logo=zig&logoColor=white): Memory safety and modern systems programming
 
 ### Software Development:
 - Code organization and readability
@@ -210,29 +214,43 @@ This project demonstrates:
 
 | Implementation | Compile Time | Binary Size | Memory Usage |
 |---------------|--------------|-------------|--------------|
-| C | Fast | Small | Minimal |
-| C++ | Medium | Medium | Low |
-| Java V1 | Medium | Medium | Medium |
-| Java V2 | Medium | Medium | Medium |
-| Zig | Fast | Small | Minimal |
-
-## 🤝 Contributing
-
-Feel free to:
-- Add implementations in new languages
-- Improve existing code
-- Fix bugs or add features
-- Enhance documentation
+| ![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white) | Fast | Small | Minimal |
+| ![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white) | Medium | Medium | Low |
+| ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white) V1 | Medium | Medium | Medium |
+| ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white) V2 | Medium | Medium | Medium |
+| ![Zig](https://img.shields.io/badge/Zig-F7A41D?style=for-the-badge&logo=zig&logoColor=white) | Fast | Small | Minimal |
 
 ## 📝 License
 
 This project is open source and available under the [MIT License](LICENSE).
 
-## 🔗 Links
+---
 
-- **Repository**: [multicode-rps](https://github.com/yourusername/multicode-rps)
-- **Issues**: [Report bugs or request features](https://github.com/yourusername/multicode-rps/issues)
+<div align="center">
+
+## 🚀 Ready to Code & Play?
+
+**Happy Coding!** 💻✨
+
+Choose your favorite programming language and dive into the classic Rock Paper Scissors experience!
+
+<div style="margin: 20px 0;">
+  
+![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)
+![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+![Zig](https://img.shields.io/badge/Zig-F7A41D?style=for-the-badge&logo=zig&logoColor=white)
+
+</div>
+
+### 🌟 **Explore • Learn • Code • Play** 🌟
+
+*From procedural programming to modern systems languages - there's something for every developer!*
 
 ---
 
-**Happy Gaming!** 🎮 Choose your favorite language and start playing!
+**Made with** ❤️ **and lots of** ☕ **by passionate developers**
+
+🔗 [**View Repository**](https://github.com/yourusername/multicode-rps) | 🐛 [**Report Issues**](https://github.com/yourusername/multicode-rps/issues)
+
+</div>
