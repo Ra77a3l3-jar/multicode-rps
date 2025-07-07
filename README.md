@@ -29,15 +29,6 @@ This repository showcases the classic Rock Paper Scissors game implemented acros
 
 ## 🛠️ Languages & Implementations
 
-<div align="center">
-  
-![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)
-![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
-![Zig](https://img.shields.io/badge/Zig-F7A41D?style=for-the-badge&logo=zig&logoColor=white)
-
-</div>
-
 This project demonstrates the same game logic implemented in different programming paradigms:
 
 | Language | Status | Files | Compiler/Runtime |
