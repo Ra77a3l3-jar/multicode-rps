@@ -1,0 +1,14 @@
+# Compiled binaries and executables
+*.bin
+*.out
+*.app
+*.o
+*.obj
+
+# Java compiled files
+*.class
+
+# Zig build output
+zig-out/
+zig-cache/
+.zig-cache/
