@@ -15,6 +15,3 @@ Java V1/*.class
 Java V2/*.class
 
 # Zig build output
-zig-out/
-zig-cache/
-.zig-cache/
